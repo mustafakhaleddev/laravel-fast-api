@@ -138,5 +138,3 @@ Feel free to submit issues and pull requests. Contributions are welcome!
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ---
-
-This `README.md` gives a clear overview of your package's purpose, usage, features, and installation steps, ensuring potential users and contributors understand it quickly.
