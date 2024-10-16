@@ -1,0 +1,48 @@
+{
+    "name": "mkd/laravel-fast-api",
+    "description": "Laravel package for generating and verifying One-Time Passwords (OTPs) using TOTP (Time-based One-Time Password) and HOTP (HMAC-based One-Time Password) algorithms.",
+    "keywords": [
+        "laravel"
+
+    ],
+    "homepage": "https://github.com/mustafakhaleddev/laravel-fast-api",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mustafa Khaled",
+            "email": "mustafakhaled.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^7.0|^8.0|^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "MKD\\FastAPI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MKD\\FastAPI\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MKD\\FastAPI\\LaravelFastAPIServiceProvider"
+            ],
+            "aliases": {
+
+            }
+        }
+    }
+}
