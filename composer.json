@@ -1,8 +1,15 @@
 {
     "name": "mkd/laravel-fast-api",
-    "description": "Laravel package for generating and verifying One-Time Passwords (OTPs) using TOTP (Time-based One-Time Password) and HOTP (HMAC-based One-Time Password) algorithms.",
+    "description": "Laravel FastAPI is a PHP attribute-based routing package designed to streamline API development. It enables developers to define routes, methods, and middlewares directly within their controllers using simple PHP attributes. By reducing the complexity of traditional route definition, Laravel FastAPI improves code organization and enhances performance with route caching. Perfect for developers looking to build clean, efficient APIs in Laravel.",
     "keywords": [
-        "laravel"
+        "laravel",
+        "FastAPI",
+        "PHP Attributes",
+        "API Routing",
+        "Route Caching",
+        "Middleware",
+        "Laravel Packages",
+        "API Development"
 
     ],
     "homepage": "https://github.com/mustafakhaleddev/laravel-fast-api",
